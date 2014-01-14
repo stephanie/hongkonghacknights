@@ -7311,3 +7311,45 @@ Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-14 01:01:16 +08
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 01:01:16 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 21:21:31 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (61.6ms)
+Completed 200 OK in 187ms (Views: 183.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 21:21:32 +0800
