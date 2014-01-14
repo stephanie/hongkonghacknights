@@ -1,0 +1,75 @@
+<div id="logo">
+  <div class="row">
+    <div class="large-12 columns">
+      Hong Kong Hacknights
+    </div>
+  </div>
+</div>
+
+<div id="upcoming-event">
+  <div class="row">
+    <div class="large-12 columns">
+      <div id="event-box">
+        COMING SOON
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="description">
+  <div class="row">
+    <div class="large-12 columns">
+      <div id="slogan">
+        Come. Code. Collab.
+      </div>
+      <div id="text">
+        Hong Kong Hacknights will be held bi-weekly. An excuse to get together with other programmers in Hong Kong to bootstrap your projects, learn new technologies, or fix frustrating bugs. 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact-form-title">
+  <div class="row">
+    <div class="large-12 columns">
+      Contact Us
+    </div>
+  <div>
+</div>
+
+<div id="contact-us-form">
+  <div class="row">
+    <div class="large-12 columns">
+      <%= form_for @message, :url => contact_path do |form| %>
+          <div class="row">
+            <div class="large-4 columns">
+              <label><%= form.label :name %></label>
+              <%= form.text_field :name %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">            
+              <%= form.label :email %>
+              <%= form.text_field :email %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <%= form.label "Message" %>
+              <%= form.text_area :body %>
+            <div>
+          </div>
+          <%= form.submit 'Send', class: 'button' %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<%# Logo spans 
+  <span id="H">H</span>
+  <span id="h-ong">ong</span>
+  <span id="K">K</span>
+  <span id="k-ong">ong</span>
+  <span id="h-ack">ack</span>
+  <span id="k-nights">nights</span>
+%>

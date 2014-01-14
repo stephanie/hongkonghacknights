@@ -1,0 +1,112 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require normalize
+*= require foundation
+*= require foundation.min
+*= require contact
+*= require_self
+*/
+
+body, html {
+  margin: 0;
+  height: 100%;
+  font-size: 100%;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#logo {
+  background-color: black;
+  color: white;
+  height: 20%;
+  text-align: center;
+  font-size: 5em; 
+  padding: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#upcoming-event {
+  margin-top: 10%;
+  background: white;
+  color: black;
+  height: 20%;
+  font-weight: 700;
+  font-size: 3.5em;
+  margin-top: 5%;
+
+}
+#event-box {
+  width: 50%;
+  margin: 0 auto;
+  background: black;
+  color: white;
+  padding: 5%;
+  text-align: center;
+}
+#description {
+  margin-top: 3%;
+  color: black;
+  height: 30%;
+  line-height: 1.5;
+  padding: 30px;
+  text-align: center;
+}
+#contact-us-form {
+  margin-top: 7%;
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 100px;
+}
+.button {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#contact-form-title {
+  margin-top: 2%;
+  background: black;
+  height: 9%;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+}
+#slogan {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+#text {
+  margin-top: 2%;
+  font-size: 2em;
+}
+
+
+@media (min-width: 300px) {
+    html { font-size: 30%; }
+}
+
+@media (min-width: 500px) {
+    html { font-size: 50%; }
+}
+
+@media (min-width: 700px) {
+    html { font-size: 70%; }
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 100%; }
+}
