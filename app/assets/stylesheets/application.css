@@ -27,7 +27,7 @@ div {
   font-family: 'Lato', sans-serif;
 }
 
-#logo {
+#name-logo {
   background-color: black;
   color: white;
   height: 18%;
@@ -41,7 +41,6 @@ div {
 #upcoming-event {
   margin-top: 10%;
   background: white;
-  color: black;
   height: 20%;
   font-weight: 700;
   font-size: 3.5em;
@@ -57,7 +56,7 @@ div {
   text-align: center;
 }
 #description {
-  margin-top: 1%;
+  margin-top: 2%;
   color: black;
   height: 30%;
   line-height: 1.5;
@@ -68,14 +67,24 @@ div {
   margin-right: 5%;
   margin-left: 5%;
   height: 100px;
+  position: relative;
+  margin-top: 7%;
 }
 .button {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 0.6em;
   text-transform: uppercase;
+  background-color: #ffd700;
+  color: black; 
+}
+.button:hover {
+  background-color: black;
+  color: white;
+  font-weight: 700;
 }
 #contact-form-title {
-  margin-top: 3%;
+  margin-top: 4%;
   background: black;
   height: 9%;
   padding: 20px;
@@ -83,6 +92,7 @@ div {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 700;
+  position: relative;
 }
 #slogan {
   font-weight: 700;
@@ -93,6 +103,59 @@ div {
   font-size: 1.8em;
 }
 
+/*tape effect*/
+#event-box {
+  position: relative; /*lets us later position the tape relative to the box*/
+}
+#event-box:after{
+  content: ''; /*create a blank psuedo element, if you wanted something written on the tape, place it between the ' '*/
+  display: block;
+  position: absolute; /*positions the tape relative to the box created above rather than the whole page*/
+  background-color: rgba(220,212,176,0.75); /*using rgba for the colour lets us make the tape a little transparent*/
+  height: 25px; /*height of the tape*/
+}
+#event-box:after { /*using :after places the tape on the right of the box*/
+  left: 38%; /*position from the left edge of the #tape div*/
+  top: -10%; /*position from the top edge of the #tape div - a negative value moves the tape 10px above of the box's edge*/
+  width: 25%; /*width of the tape*/
+  height: 23%;
+  /*rotate the tape 20 degrees clockwise*/
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+}
+/*#name {
+  position: relative;
+}
+#name:after{
+  content: ''; 
+  display: block;
+  position: absolute;
+  background-image: url('/assets/hkhk-logo-edited.png');
+  background-size: contain; 
+  background-repeat:no-repeat;
+}
+#name:after { 
+  left: -17%; 
+  top: -57%; 
+  width: 160%; 
+  height: 160%;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+}*/
+
+
+@media (max-width: 520px) {
+  #contact-us-form {
+    margin-top: 15%;
+  }
+  #description {
+    margin-top: -5%;
+  }
+}
 
 @media (min-width: 320px) {
     html { font-size: 40%; }
@@ -102,7 +165,7 @@ div {
     html { font-size: 50%; }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
     html { font-size: 70%; }
 }
 
