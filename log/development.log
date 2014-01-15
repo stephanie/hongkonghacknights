@@ -20367,3 +20367,1104 @@ Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 01:23:54 +08
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:23:54 +0800
+  [1m[36m (7.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (3.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 159ms (Views: 157.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:10 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:10 +0800
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:53:20 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.4ms)
+
+Sent mail to hongkonghacknights@gmail.com (5146.6ms)
+Date: Wed, 15 Jan 2014 14:53:21 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d630619efe_8ff3fd06184c5a8167e8@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000root_path
+Completed 302 Found in 5572ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:53:26 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (3666.3ms)
+Date: Wed, 15 Jan 2014 14:53:26 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d6306630980_8ff3fd0619172f8168c9@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000root_path
+Completed 302 Found in 3678ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:53:29 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (3981.2ms)
+Date: Wed, 15 Jan 2014 14:53:29 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d63069d7f22_8ff3fd061e422dc1698a@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000root_path
+Completed 302 Found in 3991ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:53:33 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (3658.3ms)
+Date: Wed, 15 Jan 2014 14:53:33 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d6306dd70ee_8ff3fd061a23610170ed@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000root_path
+Completed 302 Found in 3668ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:53:37 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (4076.0ms)
+Date: Wed, 15 Jan 2014 14:53:37 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d630718ea07_8ff3fd0638d186417161@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000root_path
+Completed 302 Found in 4116ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:53:41 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (3573.5ms)
+Date: Wed, 15 Jan 2014 14:53:41 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d63075a555c_8ff3fd061a0e24c17244@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000root_path
+Completed 302 Found in 3583ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:53:49 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:54:49 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:54:50 +0800
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:54:57 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (3614.3ms)
+Date: Wed, 15 Jan 2014 14:54:57 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d630c11c009_8ff3fd061a9ad8c17316@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000/
+Completed 302 Found in 3630ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:00 +0800
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:55:21 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (3202.5ms)
+Date: Wed, 15 Jan 2014 14:55:21 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d630d9e651_8ff3fd063a60928174fc@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000/
+Completed 302 Found in 3214ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:55:24 +0800
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:56:40 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"blaahhh", "email"=>"blahhhhh@gmail.com", "body"=>"test2"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (4091.8ms)
+Date: Wed, 15 Jan 2014 14:56:40 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d63128bd841_8ff3fd0630e3350175a0@Stephanies-MacBook-Air.local.mail>
+Subject: A message from blaahhh
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: blaahhh
+
+Email: blahhhhh@gmail.com
+
+Message: test2
+Redirected to http://localhost:3000/
+Completed 302 Found in 4107ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:56:44 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 49ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:56:45 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:15 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:16 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:21 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:39 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:57:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:36 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 44ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:46 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:47 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:58:47 +0800
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 14:59:04 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"blahhh", "email"=>"blahhhhh@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (4006.2ms)
+Date: Wed, 15 Jan 2014 14:59:04 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d631b8aef63_8ff3fd063920fa417628@Stephanies-MacBook-Air.local.mail>
+Subject: A message from blahhh
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: blahhh
+
+Email: blahhhhh@gmail.com
+
+Message: test
+Redirected to http://localhost:3000/
+Completed 302 Found in 4019ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:08 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 14:59:52 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 45ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 14:59:53 +0800
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 15:00:32 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"blahhh", "email"=>"blahhhhh@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (3801.4ms)
+Date: Wed, 15 Jan 2014 15:00:32 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d63210bf3e0_8ff3fd0639a42dc177fd@Stephanies-MacBook-Air.local.mail>
+Subject: A message from blahhh
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: blahhh
+
+Email: blahhhhh@gmail.com
+
+Message: test
+Redirected to http://localhost:3000/
+Completed 302 Found in 3812ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 20ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:36 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 15:00:37 +0800
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-01-15 15:00:58 +0800
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nDn/8VPv5FJ8a9fjgKA/yV7JpJ0LaL/8wbXj1/sHlvA=", "message"=>{"name"=>"Stephanie Siaw", "email"=>"siaw.stephanie@gmail.com", "body"=>"test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.1ms)
+
+Sent mail to hongkonghacknights@gmail.com (7621.2ms)
+Date: Wed, 15 Jan 2014 15:00:58 +0800
+From: hongkonghacknights@gmail.com
+To: hongkonghacknights@gmail.com
+Message-ID: <52d6322a22d22_8ff3fd0619329b817851@Stephanies-MacBook-Air.local.mail>
+Subject: A message from Stephanie Siaw
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Stephanie Siaw
+
+Email: siaw.stephanie@gmail.com
+
+Message: test
+Redirected to http://localhost:3000/
+Completed 302 Found in 7633ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 15:01:05 +0800
+  [1m[36m (4.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m

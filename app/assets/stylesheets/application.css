@@ -78,7 +78,9 @@ div {
   background-color: #ffd700;
   color: black; 
 }
-.button:hover {
+.button:hover,
+.button:focus,
+.button:active {
   background-color: black;
   color: white;
   font-weight: 700;
@@ -148,7 +150,7 @@ div {
 }*/
 
 
-@media (max-width: 520px) {
+@media (max-width: 700px) {
   #contact-us-form {
     margin-top: 15%;
   }
