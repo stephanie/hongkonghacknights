@@ -87,7 +87,7 @@ Emails2::Application.configure do
     :port                => 587,
     :domain              => 'gmail.com',
     :user_name            => 'hongkonghacknights',
-    :password            => 'firstWDI',
+    :password            => 'firstwdi',
     :authentication      => 'plain',
     :enable_starttls_auto => true
   }

@@ -2,6 +2,7 @@ class ContactController < ApplicationController
 
   def new
     @message = Message.new
+    @subscriber = Subscriber.new
   end
 
   def create

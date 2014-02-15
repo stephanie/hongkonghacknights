@@ -33,6 +33,10 @@ group :production, :staging do
   gem 'rails_12factor'
 end
 
+gem 'gibbon'
+
+gem 'dotenv-rails', :groups => [:development, :test]
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

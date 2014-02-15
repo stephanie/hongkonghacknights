@@ -29,6 +29,22 @@
   </div>
 </div>
 
+<div id="subscribe-box">
+  <%= form_for @subscriber, url: subscribers_path do |f| %>
+    <div id="input-email-field">
+      <div class="row">
+        <div class="medium-3 medium-push-3">
+          <%= f.text_field :email, placeholder: "Sign up for the HK HK newsletter" %>
+        </div>
+        <div class="medium-3">
+          <%= f.submit "Send Email", class: "postfix small button expand" %>
+        </div>
+        <div class="medium-3">
+        </div>
+      <% end %>
+    </div>
+  </div>
+
 <div id="contact-form-title">
   <div class="row">
     <div class="large-12 columns">
