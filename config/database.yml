@@ -3,9 +3,9 @@ development:
   encoding: unicode
   database: hkhacknights_dev
   pool: 5
+  host: localhost
   username: rails
   password: password
-  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -16,15 +16,15 @@ test:
   encoding: unicode
   database: hkhacknights_test
   pool: 5
+  host: localhost
   username: rails
   password: password
-  host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
   database: hkhacknights_production
   pool: 5
+  host: localhost
   username: rails
   password: password
-  host: localhost
