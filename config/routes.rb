@@ -1,4 +1,5 @@
 Emails2::Application.routes.draw do
+  resources :subscribers
 
   match 'contact' => 'contact#new', :via => :get
   match 'contact' => 'contact#create', :via => :post

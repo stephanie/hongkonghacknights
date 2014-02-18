@@ -10,7 +10,7 @@
 *
 *= require normalize
 *= require foundation
-*= require foungdation.min
+*= require foundation.min
 *= require_self
 */
 
@@ -147,8 +147,22 @@ div {
   -o-transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);
 }*/
-
-
+div.small-4.columns.mailing-list,
+div.small-8.columns.mailing-list {
+  padding: 0;
+}
+#mailing-list-button,
+#mailing-list-input {
+  font-size: 1.2em;
+  height: 100%;
+  width: 100%;
+}
+#mailing-list-button {
+  padding: 10px
+}
+#mailing-list-input {
+  padding: 14px
+}
 @media (max-width: 700px) {
   #contact-us-form {
     margin-top: 15%;
@@ -156,6 +170,12 @@ div {
   #description {
     margin-top: -5%;
   }
+}
+.platform:hover {
+  color: #FFB505;
+}
+.platform {
+  color: #6B6C6D;
 }
 
 @media (min-width: 320px) {
