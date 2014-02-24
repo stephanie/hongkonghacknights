@@ -31,19 +31,16 @@
     </div>
   </div>
 </div>
-<br />
-<br />
-<br />
 <div id="subscribe-box">
   <%= form_for @subscriber, url: subscribers_path do |f| %>
     <div id="input-email-field">
       <div class="row">
-        <div class="small-8 large-centered columns">
+        <div class=".medium-5 medium-centered columns">
           <div class="row">
-            <div class="small-8 columns mailing-list">
+            <div class="medium-push-2 medium-6 columns mailing-list">
               <%= f.text_field :email, placeholder: "JOIN OUR MAILING LIST", id: "mailing-list-input" %>
             </div>
-            <div class="small-4 columns mailing-list">
+            <div class="medium-pull-2 medium-2 columns mailing-list">
               <%= f.submit "Send Email", class: "postfix small button expand", id: "mailing-list-button" %>
             </div>        
           </div>
@@ -58,35 +55,19 @@
     <div class="medium-12 columns">
       Contact Us
     </div>
-  <div>
+  </div>
 </div>
 
 <div id="contact-us-form">
-  <div class="row">
-    <div class="medium-12 columns">
-      <%= form_for @message, :url => contact_path do |form| %>
-          <div class="row">
-            <div class="medium-4 columns">
-              <label><%= form.label :name %></label>
-              <%= form.text_field :name %>
-            </div>
-          </div>
-          <div class="row">
-            <div class="medium-4 columns">            
-              <%= form.label :email %>
-              <%= form.text_field :email %>
-            </div>
-          </div>
-          <div class="row">
-            <div class="medium-4 columns">
-              <%= form.label "Message" %>
-              <%= form.text_area :body %>
-            <div>
-          </div>
-          <%= form.submit 'Send', class: 'button' %>
-      <% end %>
-    </div>
-  </div>
+  <%= form_for @message, :url => contact_path do |form| %>
+      <%= form.label :name %>
+      <%= form.text_field :name %>            
+      <%= form.label :email %>
+      <%= form.text_field :email %>
+      <%= form.label "Message" %>
+      <%= form.text_area :body %>
+      <%= form.submit 'Send', class: 'button' %>
+  <% end %>
 </div>
 
 <%# Logo spans 

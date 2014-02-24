@@ -15,21 +15,18 @@
 */
 
 body, html {
-  margin: 0;
   height: 100%;
   font-size: 100%;
 }
 
 div {
-  margin: 0;
-  padding: 0;
   font-family: 'Lato', sans-serif;
 }
 
 #name-logo {
   background-color: black;
   color: white;
-  height: 18%;
+  height: auto;
   text-align: center;
   font-size: 5em; 
   padding: 30px;
@@ -38,41 +35,42 @@ div {
 }
 
 #upcoming-event {
-  margin-top: 10%;
   background: white;
-  height: 20%;
+  height: auto;
   font-weight: 700;
   font-size: 3.5em;
-  margin-top: 5%;
-
-}
+  margin-top: 50px;
+/*  border: 1px solid green;
+*/}
 #event-box {
   width: 50%;
   margin: 0 auto;
   background: black;
   color: white;
-  padding: 4%;
+  padding: 3%;
   text-align: center;
+  margin-bottom: 40px;
 }
-#description {
-  margin-top: 2%;
+div#description {
   color: black;
-  height: 30%;
+  height: auto;
   line-height: 1.5;
-  padding: 30px;
   text-align: center;
+/*  border: 1px solid red;
+*/  margin-bottom: 40px;
 }
 #contact-us-form {
-  margin-right: 5%;
-  margin-left: 5%;
-  height: 100px;
   position: relative;
-  margin-top: 7%;
+  margin-top: 40px;
+  float: left;
+  width: 40%;
+  min-width: 300px;
+  padding-left: 4%;
 }
 .button {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 0.6em;
+  font-size: 0.9em;
   text-transform: uppercase;
   background-color: #ffd700;
   color: black; 
@@ -85,10 +83,10 @@ div {
   font-weight: 700;
 }
 #contact-form-title {
-  margin-top: 4%;
   background: black;
-  height: 9%;
+  height: auto;
   padding: 20px;
+  padding-left: 1%;
   color: white;
   text-transform: uppercase;
   font-size: 2em;
@@ -97,11 +95,11 @@ div {
 }
 #slogan {
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 #text {
   margin-top: 2%;
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 
 /*tape effect*/
@@ -147,9 +145,13 @@ div {
   -o-transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);
 }*/
-div.small-4.columns.mailing-list,
-div.small-8.columns.mailing-list {
+#subscribe-box > form .row .row .columns {
   padding: 0;
+}
+#subscribe-box {
+/*  border: 1px solid black;
+*/
+  margin-bottom: 40px;
 }
 #mailing-list-button,
 #mailing-list-input {
@@ -163,21 +165,17 @@ div.small-8.columns.mailing-list {
 #mailing-list-input {
   padding: 14px
 }
-@media (max-width: 700px) {
-  #contact-us-form {
-    margin-top: 15%;
-  }
-  #description {
-    margin-top: -5%;
-  }
-}
 .platform:hover {
   color: #FFB505;
 }
 .platform {
-  color: #6B6C6D;
+  color: black;
+  text-decoration: underline;
 }
 
+@media (max-width: 320px) {
+    html { font-size: 30%; }
+}
 @media (min-width: 320px) {
     html { font-size: 40%; }
 }
