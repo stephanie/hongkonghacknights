@@ -29,7 +29,8 @@ div {
   height: auto;
   text-align: center;
   font-size: 5em; 
-  padding: 30px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -47,7 +48,7 @@ div {
   margin: 0 auto;
   background: black;
   color: white;
-  padding: 3%;
+  padding: 2%;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -82,7 +83,8 @@ div#description {
   color: white;
   font-weight: 700;
 }
-#contact-form-title {
+#contact-form-title, 
+#location-title {
   background: black;
   height: auto;
   padding: 20px;
@@ -93,13 +95,28 @@ div#description {
   font-weight: 700;
   position: relative;
 }
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+#location-title {
+  background: none;
+  color: #FFBE05;
+  font-weight: 300;
+}
+#location-detail {
+  font-size: 0.7em;
+  margin-bottom: 0;
+}
 #slogan {
   font-weight: 700;
   font-size: 2.3em;
 }
 #text {
   margin-top: 2%;
-  font-size: 1.4em;
+  font-size: 1.5em;
+  font-weight: 300;
 }
 
 /*tape effect*/
@@ -158,6 +175,7 @@ div#description {
   font-size: 1.2em;
   height: 100%;
   width: 100%;
+  font-weight: 300;
 }
 #mailing-list-button {
   padding: 10px
@@ -172,7 +190,34 @@ div#description {
   color: black;
   text-decoration: underline;
 }
-
+.map-frame {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.map-content {
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    background: transparent; 
+    color: #FFF;
+}
+.map-overlay {
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0 px;
+    width: 100%;
+    height: 300px;
+    background: transparent; 
+}
+#event-time {
+  font-size: 0.7em;
+  margin-bottom: 0;
+}
 @media (max-width: 320px) {
     html { font-size: 30%; }
 }
