@@ -44039,3 +44039,81 @@ Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:02 +08
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:02 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-25 02:10:28 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-25 09:09:42 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 123ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-25 09:09:43 +0800
