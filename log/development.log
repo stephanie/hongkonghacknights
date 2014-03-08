@@ -44273,3 +44273,12 @@ Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2014-02-26 22:19:55 +08
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-26 22:19:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-08 19:48:33 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-08 19:48:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-08 19:50:21 +0800
