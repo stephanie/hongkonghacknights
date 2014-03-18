@@ -11,7 +11,7 @@
   <div class="row">
     <div class="medium-12 columns">
       <div id="event-box">
-        WED, MARCH 12TH
+        THURSDAY, <span id="event-date">March 27</span>TH
         <p id="event-time">7:00 - 10:30PM</p>
       </div>
     </div>
@@ -24,10 +24,10 @@
         Come. Code. Collab.
       </div>
       <div id="text">
-        Hong Kong Hacknights are held bi-monthly @ 
-        <a href="http://platform.hk/" class="platform">PLATFORM</a>. 
+        Hong Kong Hacknights are held bi-monthly @
+        <a href="http://platform.hk/" class="platform">PLATFORM</a>.
         <br />
-        An excuse to get together with other programmers in Hong Kong to bootstrap your projects, learn new technologies, or fix frustrating bugs. 
+        An excuse to get together with other programmers in Hong Kong to bootstrap your projects, learn new technologies, or fix frustrating bugs.
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="medium-pull-2 medium-2 columns mailing-list">
               <%= f.submit "Send Email", class: "postfix small button expand", id: "mailing-list-button" %>
-            </div>        
+            </div>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@
 <div id="contact-us-form">
   <%= form_for @message, :url => contact_path do |form| %>
       <%= form.label :name %>
-      <%= form.text_field :name %>            
+      <%= form.text_field :name %>
       <%= form.label :email %>
       <%= form.text_field :email %>
       <%= form.label "Message" %>
@@ -93,7 +93,7 @@
   <% end %>
 </div>
 
-<%# Logo spans 
+<%# Logo spans
   <span id="H">H</span>
   <span id="h-ong">ong</span>
   <span id="K">K</span>

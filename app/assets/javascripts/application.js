@@ -15,5 +15,5 @@
 //= require modernizr
 //= require foundation
 //= require foundation.min
-//= require contact
+
 
