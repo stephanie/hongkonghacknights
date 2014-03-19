@@ -217,7 +217,7 @@ h1 {
 }
 #event-time {
   font-size: 0.7em;
-  margin-bottom: -8px;
+  margin-bottom: 0;
 }
 @media (max-width: 320px) {
     html { font-size: 30%; }
