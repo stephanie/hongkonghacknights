@@ -10,10 +10,8 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
+//= require zepto.min
 //= require modernizr
-//= require foundation
-//= require foundation.min
+//= require event_date
 
 
