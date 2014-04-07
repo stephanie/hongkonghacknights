@@ -3010,3 +3010,34 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:26:03
 
 
 Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:26:03 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:33:09 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (80.1ms)
+Completed 200 OK in 456ms (Views: 112.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
