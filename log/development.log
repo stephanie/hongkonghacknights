@@ -3041,3 +3041,215 @@ Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 
 
 
 Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:33:10 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:37:16 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 595ms (Views: 303.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:37:17 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:38:44 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 571ms (Views: 287.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:45 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:38:49 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 177ms (Views: 176.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:50 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:38:55 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 223ms (Views: 222.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:56 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 174ms (Views: 173.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:38:59 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:39:08 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 250ms (Views: 249.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:09 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 00:39:18 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 186ms (Views: 185.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-08 00:39:19 +0800

@@ -11,5 +11,6 @@ ready = ->
       dates.splice(index, 1)
 
   $('#event-date').html(dates[1])
+  console.log "Welcome h4xr! Our next Hacknights is on " + dates[1] + "."
 
 $(document).ready(ready)
