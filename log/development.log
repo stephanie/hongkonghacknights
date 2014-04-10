@@ -3504,3 +3504,123 @@ Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-10 20:21:01 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 20:21:01 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 166ms (Views: 165.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-10 20:31:59 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 20:32:31 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 167ms (Views: 166.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-10 20:32:32 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 20:33:46 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+
+
+Started GET "/assets/event_date.js?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-04-10 20:34:55 +0800
