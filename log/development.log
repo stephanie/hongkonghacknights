@@ -4746,3 +4746,292 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:05:00
 
 
 Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:05:00 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:09:17 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (35.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 424ms (Views: 92.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:09:18 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:09:49 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:10:21 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:10:22 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:10:52 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:11:16 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:12:20 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:12:28 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:16:17 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 16:16:47 +0800
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
+
+
+Started GET "/assets/foundation.min.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
+
+
+Started GET "/assets/hkhk-logo.png" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2015-03-15 16:16:48 +0800
