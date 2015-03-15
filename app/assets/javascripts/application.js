@@ -12,6 +12,5 @@
 //
 //= require zepto.min
 //= require modernizr
-//= require event_date
 
 

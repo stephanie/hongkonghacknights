@@ -1,3 +1,4 @@
+### commenting out old coffeescript code
 ready = ->
   now = new Date()
 
@@ -15,3 +16,4 @@ ready = ->
   console.log "Welcome h4xr! Our next Hacknights is on " + dates[1] + "."
 
 $(document).ready(ready)
+###
