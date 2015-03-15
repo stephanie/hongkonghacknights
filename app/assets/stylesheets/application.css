@@ -29,12 +29,15 @@ div {
   height: auto;
   text-align: center;
   font-size: 5em;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-transform: uppercase;
   font-weight: 900;
 }
-
+.logo {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
 #upcoming-event {
   background: white;
   height: auto;
@@ -74,8 +77,8 @@ div#description {
   font-weight: 900;
   font-size: 1em;
   text-transform: uppercase;
-  background-color: #ffd700;
-  color: black;
+  background-color: #FA9E25;
+  color: white;
 }
 .button:hover,
 .button:focus,
